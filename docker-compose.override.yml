@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  hellodocker:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
